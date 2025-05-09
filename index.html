@@ -62,13 +62,13 @@
       left: 0;
       width: 100%;
       height: 100px;
-      background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" fill="%231e1e2f" opacity=".25"/><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" fill="%231e1e2f" opacity=".5"/><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="%231e1e2e"/></svg>');
+      background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 1200 120" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"><path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" fill="%231e1e2f" opacity=".25"/><path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" fill="%231e1e2f" opacity=".5"/><path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" fill="%231e1e2f"/></svg>');
       background-size: cover;
       z-index: 1;
     }
     
     header img {
-      max-width: 180px;
+      max-width: 200px;
       margin-bottom: 20px;
       border-radius: 50%;
       border: 4px solid var(--yellow);
@@ -85,7 +85,7 @@
     }
     
     header h1 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin: 0;
       text-shadow: 3px 3px 0 var(--blue),
                   -3px -3px 0 var(--pink);
@@ -106,7 +106,7 @@
     }
     
     header p {
-      font-size: 1.4rem;
+      font-size: 1.5rem;
       margin-top: 15px;
       font-weight: bold;
       color: var(--yellow);
@@ -117,13 +117,12 @@
       justify-content: center;
       flex-wrap: wrap;
       margin-top: 30px;
-      gap: 15px;
+      gap: 20px;
     }
     
     .buttons a {
-      display: inline-flex;
-      align-items: center;
-      padding: 12px 25px;
+      display: inline-block;
+      padding: 15px 30px;
       background: linear-gradient(45deg, var(--pink), var(--purple));
       color: white;
       text-decoration: none;
@@ -134,7 +133,7 @@
       position: relative;
       overflow: hidden;
       border: none;
-      font-size: 1rem;
+      font-size: 1.1rem;
       text-transform: uppercase;
       letter-spacing: 1px;
     }
@@ -168,8 +167,8 @@
     
     h2 {
       color: var(--pink);
-      font-size: 2.2rem;
-      margin-bottom: 25px;
+      font-size: 2.5rem;
+      margin-bottom: 30px;
       position: relative;
       display: inline-block;
       font-family: 'Comic Neue', cursive;
@@ -188,7 +187,7 @@
     }
     
     p {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       margin-bottom: 20px;
     }
     
@@ -198,19 +197,19 @@
     }
     
     li {
-      margin-bottom: 12px;
+      margin-bottom: 15px;
       position: relative;
       padding-left: 35px;
-      font-size: 1.05rem;
+      font-size: 1.1rem;
     }
     
     li::before {
       content: "";
       position: absolute;
       left: 0;
-      top: 7px;
-      width: 18px;
-      height: 18px;
+      top: 5px;
+      width: 20px;
+      height: 20px;
       background-color: var(--pink);
       border-radius: 50%;
       transform: rotate(45deg);
@@ -220,7 +219,7 @@
       text-align: center;
       padding: 40px 20px;
       background-color: #1a1a2e;
-      font-size: 0.95rem;
+      font-size: 1rem;
       position: relative;
       margin-top: 60px;
     }
@@ -241,40 +240,39 @@
       margin: 10px 0;
     }
     
-    /* Improved Meme Gallery */
     .meme-gallery {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 25px;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
       margin: 40px 0;
     }
     
     .meme-gallery img {
       width: 100%;
-      max-width: 280px;
       height: auto;
-      border-radius: 12px;
-      transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-      border: 2px solid transparent;
-      aspect-ratio: 1/1;
-      object-fit: cover;
-      margin: 0 auto;
-      display: block;
+      min-height: 300px;
+      max-height: 400px;
+      object-fit: contain;
+      border-radius: 15px;
+      transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+      border: 3px solid transparent;
+      background-color: rgba(0, 0, 0, 0.2);
+      padding: 5px;
     }
     
     .meme-gallery img:hover {
-      transform: scale(1.08) rotate(1deg);
-      box-shadow: 0 12px 25px rgba(255, 45, 117, 0.5);
-      border: 2px solid var(--yellow);
+      transform: scale(1.05) rotate(2deg);
+      box-shadow: 0 15px 30px rgba(255, 45, 117, 0.5);
+      border: 3px solid var(--yellow);
       z-index: 10;
     }
     
     .grape-facts {
       background: rgba(26, 26, 46, 0.7);
-      border-radius: 18px;
-      padding: 25px;
-      margin: 35px 0;
+      border-radius: 20px;
+      padding: 30px;
+      margin: 40px 0;
       border: 2px dashed var(--blue);
       position: relative;
       overflow: hidden;
@@ -282,49 +280,22 @@
     
     .grape-fact {
       background: rgba(154, 31, 106, 0.2);
-      border-radius: 12px;
-      padding: 18px;
-      margin-bottom: 15px;
-      border-left: 4px solid var(--pink);
+      border-radius: 15px;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-left: 5px solid var(--pink);
       transition: all 0.3s ease;
     }
     
     .grape-fact:hover {
-      transform: translateX(8px);
+      transform: translateX(10px);
       background: rgba(154, 31, 106, 0.3);
     }
     
     .grape-fact h3 {
       color: var(--yellow);
       margin-top: 0;
-      font-size: 1.2rem;
     }
-    
-    /* Floating grapes decoration */
-    .grape-decoration {
-      position: absolute;
-      width: 25px;
-      height: 25px;
-      background: radial-gradient(circle at 30% 30%, var(--purple), #6a0572);
-      border-radius: 50%;
-      opacity: 0.7;
-      animation: float-grape 15s infinite linear;
-      z-index: -1;
-    }
-    
-    @keyframes float-grape {
-      0% { transform: translate(0, 0) rotate(0deg); }
-      25% { transform: translate(40px, -25px) rotate(90deg); }
-      50% { transform: translate(80px, 0px) rotate(180deg); }
-      75% { transform: translate(40px, 25px) rotate(270deg); }
-      100% { transform: translate(0, 0) rotate(360deg); }
-    }
-    
-    /* Grape decorations */
-    .grape-1 { top: 15%; left: 8%; animation-delay: 0s; }
-    .grape-2 { top: 55%; left: 88%; animation-delay: 3s; animation-duration: 18s; }
-    .grape-3 { top: 75%; left: 12%; animation-delay: 5s; animation-duration: 20s; width: 20px; height: 20px; }
-    .grape-4 { top: 25%; left: 78%; animation-delay: 7s; }
     
     @media (max-width: 768px) {
       header h1 {
@@ -332,7 +303,7 @@
       }
       
       h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
       }
       
       .buttons {
@@ -343,32 +314,43 @@
       .buttons a {
         width: 80%;
         text-align: center;
-        padding: 10px 20px;
       }
       
       .meme-gallery {
         grid-template-columns: 1fr;
-        gap: 20px;
       }
       
       .meme-gallery img {
-        max-width: 240px;
+        min-height: 250px;
+        max-height: 350px;
       }
     }
     
-    @media (max-width: 480px) {
-      header h1 {
-        font-size: 2rem;
-      }
-      
-      header p {
-        font-size: 1.1rem;
-      }
-      
-      .meme-gallery img {
-        max-width: 200px;
-      }
+    /* Floating grapes decoration */
+    .grape-decoration {
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background: radial-gradient(circle at 30% 30%, var(--purple), #6a0572);
+      border-radius: 50%;
+      opacity: 0.7;
+      animation: float-grape 15s infinite linear;
+      z-index: -1;
     }
+    
+    @keyframes float-grape {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      25% { transform: translate(50px, -30px) rotate(90deg); }
+      50% { transform: translate(100px, 0px) rotate(180deg); }
+      75% { transform: translate(50px, 30px) rotate(270deg); }
+      100% { transform: translate(0, 0) rotate(360deg); }
+    }
+    
+    /* Add some random floating grapes */
+    .grape-1 { top: 20%; left: 10%; animation-delay: 0s; width: 25px; height: 25px; }
+    .grape-2 { top: 60%; left: 85%; animation-delay: 3s; animation-duration: 18s; }
+    .grape-3 { top: 80%; left: 15%; animation-delay: 5s; animation-duration: 20s; width: 20px; height: 20px; }
+    .grape-4 { top: 30%; left: 75%; animation-delay: 7s; }
   </style>
 </head>
 <body>
@@ -386,54 +368,59 @@
       <a href="#" target="_blank">🍷 Buy $GRAPE</a>
       <a href="#" target="_blank">📈 View Chart</a>
       <a href="#" target="_blank">💬 Join Telegram</a>
+      <a href="#" target="_blank">🐦 Follow Twitter</a>
     </div>
   </header>
 
   <section>
     <h2>What is $GRAPE?</h2>
-    <p>$GRAPE is the saddest (but funkiest) fruit on the blockchain. Born from the crushing pressure of market downturns and fermented in the barrels of crypto despair, it's here to make you laugh through the pain.</p>
+    <p>$GRAPE is the saddest (but funkiest) fruit on the blockchain. Born from the crushing pressure of market downturns and fermented in the barrels of crypto despair, it's here to make you laugh through the pain. Whether you're down bad, up slightly, or just here for the memes — $GRAPE is your emotional support coin with a psychedelic twist!</p>
 
     <div class="grape-facts">
       <div class="grape-fact">
         <h3>🍇 Grape Fact #1</h3>
-        <p>Looking at $GRAPE memes increases serotonin levels by 69%. (Source: We made it up, but it feels true.)</p>
+        <p>Studies show that looking at $GRAPE memes increases serotonin levels by 69%. (Source: We made it up, but it feels true.)</p>
       </div>
       <div class="grape-fact">
         <h3>🍷 Grape Fact #2</h3>
-        <p>The more $GRAPE you hold, the more sophisticated your wine palette becomes.</p>
+        <p>The more $GRAPE you hold, the more sophisticated your wine palette becomes. (Warning: May cause sudden urges to buy expensive Bordeaux.)</p>
       </div>
     </div>
 
     <h2>✨ Tokenomics</h2>
     <ul>
-      <li>🍇 Total Supply: 1,000,000,000 GRAPE (50% burned)</li>
+      <li>🍇 Total Supply: 1,000,000,000 GRAPE (but 50% burned at launch)</li>
       <li>💸 Tax: 0% (we take enough L's already)</li>
       <li>🔒 Liquidity: Locked tighter than a sommelier's wine cellar</li>
       <li>🧠 Governance: Community votes (or cries in harmony)</li>
+      <li>🔥 Deflationary: Regular burns (like our portfolios)</li>
     </ul>
 
     <h2>🚀 Grapemap</h2>
     <ul>
-      <li>✅ Launch on Pump.fun</li>
+      <li>✅ Launch on Pump.fun (emotional damage included)</li>
       <li>✅ Publicly cry on Twitter Spaces</li>
-      <li>🔜 Grape NFT collection</li>
-      <li>🔜 Grape DAO</li>
-      <li>🔜 Wine partnerships</li>
+      <li>🔜 Grape NFT collection (depressed grapes need art too)</li>
+      <li>🔜 Grape DAO (decentralized alcoholism)</li>
+      <li>🔜 Wine partnerships (Napa Valley or bust)</li>
+      <li>🔜 Grape therapy hotline (1-800-GRAPE-ME)</li>
+      <li>🔜 IRL grape stomping event (cathartic release)</li>
     </ul>
 
     <h2>😂 Meme Gallery</h2>
-    <p>Our memes are like fine wine - they get better with age.</p>
+    <p>Our memes are like fine wine - they get better with age (or at least more depressingly funny).</p>
     <div class="meme-gallery">
       <img src="https://i.postimg.cc/LqqjmnWC/grape-meme1.jpg" alt="Depressed grape staring at crypto charts" loading="lazy">
       <img src="https://i.postimg.cc/140Ckjwg/grape-meme2.jpg" alt="Grape contemplating life choices" loading="lazy">
       <img src="https://i.postimg.cc/yDGvh44G/grape-meme3.jpg" alt="Grape in therapy session" loading="lazy">
+      <img src="https://i.postimg.cc/z3sFdSVd/grape-meme4.jpg" alt="Grape looking at market crash" loading="lazy">
     </div>
   </section>
 
   <footer>
     <p>🚨 Not financial advice. Consult a sommelier before investing. 🍷</p>
     <p>Powered by fermented hopes and Pump.fun</p>
-    <p>© 2025 Grape Depression | All rights reserved</p>
+    <p>© 2025 Grape Depression | All rights reserved (to be depressed and fabulous)</p>
   </footer>
 </body>
 </html>
