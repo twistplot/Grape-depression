@@ -21,10 +21,13 @@
     header img {
       max-width: 180px;
       margin-bottom: 20px;
+      border-radius: 50%;
+      border: 3px solid #f2f2f2;
     }
     header h1 {
       font-size: 3rem;
       margin: 0;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     }
     header p {
       font-size: 1.2rem;
@@ -33,11 +36,19 @@
     .buttons a {
       display: inline-block;
       margin: 10px;
-      padding: 10px 20px;
+      padding: 12px 25px;
       background-color: #9a1f6a;
       color: white;
       text-decoration: none;
       border-radius: 10px;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .buttons a:hover {
+      background-color: #6a0572;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
     }
     section {
       padding: 40px 20px;
@@ -46,6 +57,8 @@
     }
     h2 {
       color: #d971bc;
+      border-bottom: 2px solid #9a1f6a;
+      padding-bottom: 8px;
     }
     footer {
       text-align: center;
@@ -53,10 +66,38 @@
       background-color: #2a2a3d;
       font-size: 0.9rem;
     }
+    .meme-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
     .meme-gallery img {
       width: 100%;
-      margin-bottom: 20px;
       border-radius: 10px;
+      transition: transform 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .meme-gallery img:hover {
+      transform: scale(1.03);
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 8px;
+    }
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+      header p {
+        font-size: 1rem;
+      }
+      .buttons a {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
@@ -66,21 +107,23 @@
     <h1>GRAPE DEPRESSION</h1>
     <p>The only dip we enjoy is in wine. 🍇</p>
     <div class="buttons">
-      <a href="#">Buy on Pump.fun</a>
-      <a href="#">View Chart</a>
+      <a href="#" target="_blank">Buy on Pump.fun</a>
+      <a href="#" target="_blank">View Chart</a>
+      <a href="#" target="_blank">Join Telegram</a>
     </div>
   </header>
 
   <section>
     <h2>What is $GRAPE?</h2>
-    <p>$GRAPE is the saddest fruit on the blockchain. Born from the crushing pressure of market downturns (and wine presses), it’s here to help you laugh through the pain. Whether you’re down bad, up slightly, or just here for the memes — $GRAPE is your emotional support coin.</p>
+    <p>$GRAPE is the saddest fruit on the blockchain. Born from the crushing pressure of market downturns (and wine presses), it's here to help you laugh through the pain. Whether you're down bad, up slightly, or just here for the memes — $GRAPE is your emotional support coin.</p>
 
     <h2>Tokenomics</h2>
     <ul>
       <li>🍇 Total Supply: 1,000,000,000 GRAPE</li>
-      <li>💸 Tax: 0%</li>
-      <li>🔒 Liquidity: Locked</li>
+      <li>💸 Tax: 0% (because we're already taxed enough emotionally)</li>
+      <li>🔒 Liquidity: Locked (we're not going anywhere)</li>
       <li>🧠 Governance: Community decides (or cries together)</li>
+      <li>🔥 50% burned at launch (like our hopes and dreams)</li>
     </ul>
 
     <h2>Grapemap</h2>
@@ -90,19 +133,22 @@
       <li>🔜 Drop memes and grape-themed NFTs</li>
       <li>🔜 Build Grape DAO for holders</li>
       <li>🔜 Wine partnership? (Manifesting.)</li>
+      <li>🔜 Grape therapy support groups</li>
     </ul>
 
     <h2>Meme Gallery</h2>
+    <p>Because laughter is the best medicine (besides actual medicine).</p>
     <div class="meme-gallery">
-      <img src="https://postimg.cc/LqqjmnWC" alt="Grape Meme 1">
-      <img src="https://postimg.cc/140Ckjwg" alt="Grape Meme 2">
-      <img src="https://postimg.cc/yDGvh44G" alt="Grape Meme 3">
+      <img src="https://i.postimg.cc/LqqjmnWC/grape-meme1.jpg" alt="Grape Meme 1">
+      <img src="https://i.postimg.cc/140Ckjwg/grape-meme2.jpg" alt="Grape Meme 2">
+      <img src="https://i.postimg.cc/yDGvh44G/grape-meme3.jpg" alt="Grape Meme 3">
     </div>
   </section>
 
   <footer>
     <p>Not financial advice. Consult a vineyard before investing. 🍷</p>
-    <p>Powered by Pump.fun</p>
+    <p>Powered by tears and Pump.fun</p>
+    <p>© 2023 Grape Depression | All rights reserved (to be depressed)</p>
   </footer>
 </body>
 </html>
